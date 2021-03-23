@@ -1,0 +1,14 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      java: openjdk11
+      python: 3.8
+    commands:
+      - apt update
+  pre_build:
+    commands:
+  build:
+    commands:
+      - python servicecatalog.py
+     

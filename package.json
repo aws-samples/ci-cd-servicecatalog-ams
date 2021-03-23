@@ -1,0 +1,34 @@
+{
+  "name": "cdk",
+  "version": "0.1.0",
+  "bin": {
+    "cdk": "bin/cdk.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.41.0",
+    "@types/jest": "^24.9.1",
+    "@types/node": "10.17.5",
+    "aws-cdk": "^1.67.0",
+    "jest": "^25.5.4",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-iam": "^1.54.0",
+    "@aws-cdk/core": "^1.54.0",
+    "@aws-cdk/aws-s3": "^1.54.0",
+    "@aws-cdk/aws-codepipeline": "^1.54.0",
+    "@aws-cdk/aws-codepipeline-actions": "^1.54.0",
+    "@aws-cdk/aws-codebuild": "^1.54.0",
+    "@aws-cdk/aws-sns": "^1.54.0",
+    "@aws-cdk/aws-s3-deployment": "^1.54.0",
+    "@aws-cdk/aws-servicecatalog": "^1.54.0"
+  }
+}
